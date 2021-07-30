@@ -1,0 +1,156 @@
+@chasert "utf-8";
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: linear-gradient(rgb(57, 68, 111) 60%, rgb(183, 72, 8));
+    /* background: #3C4767; */
+    z-index: 1;
+}
+.main-icon{
+
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 42%;
+}
+
+.sub-title{
+    color:#fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+.new-title{
+    color:#fff;
+    margin-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.back-space{
+    height: 300px;
+    width: 280px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 5%;
+    margin-left: 40%;
+    z-index: 10;
+}
+.back-ground{
+    height: 480px;
+    width: 280px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 1%;
+    margin-left: 40%;
+    z-index: 10;
+}
+
+label{
+    color:#fff;
+    padding-left: 40px;
+    font-size: 0.9rem;
+}
+
+
+.topic{
+    color:#fff;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    font-size: 0.9rem;
+
+
+}
+.back{
+
+    color:#fff;
+    padding-left: 50px;
+    font-size:0.9rem;
+
+}
+.back-login{
+
+    color:#fff;
+    padding-left: 70px;
+    font-size:0.9rem;
+
+}
+
+.input{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.form-btn{
+    color:#fff;
+    background-color:#5266cc;
+    border-radius: 7px;
+    width: 110px;
+    height: 30px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    border-style: none;
+
+
+}
+
+
+/*addフォーム記述*/
+
+.back-town{
+    height: 250px;
+    width: 280px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 5%;
+    margin-left: 40%;
+    z-index: 10;
+}
+
+#clear{
+
+    color:#fff;
+    z-index: 100;
+}
+.word-a{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+.word-b{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.word-c{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
+.word-d{
+    padding-left: 20px;
+    font-size: 0.9rem;
+
+}
+
+.back-add{
+    color:#fff;
+    background-color:#5266cc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+
+}
+.back-position{
+    margin-top: 50px;
+    text-align: center;
+}

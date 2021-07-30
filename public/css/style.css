@@ -1,0 +1,421 @@
+@charset "utf-8";
+html{
+}
+body{
+}
+/*編集モダール作成*/
+.edit-modal-wrapper {
+    display: none;
+  }
+
+.edit-back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+
+}
+
+.modal {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: white;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    text-align: center;
+  }
+  .upform-control{
+    height: 150px;
+    width: 90%;
+    /* border:none; */
+  }
+  .up-post-btn{
+    height: 45px;
+    width: 55px;
+    margin-top: 35px;
+    padding-left: 600px;
+    border: none;
+    background: #fff;
+}
+/* header */
+
+#head{
+    background:#3C4767;
+    width: 100%;
+    height: 60px;
+}
+.main-icon{
+    float: left;
+    margin: 0px 30px 0px 30px;
+    width: 110px;
+    height: 60px;
+
+}
+#user-icon{
+    color:#fff;
+    margin-top: 20px;
+    /* padding-left: 900px; */
+    margin-right: 20px;
+    float: right;
+}
+
+.persol-icon{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.personal-name{
+    /* position: relative; */
+}
+
+.menu{
+    float: right;
+    width: 10px;
+    height:10px;
+    margin-top: 25px;
+    border-right:solid 1px #fff;
+    border-top:solid 1px #fff;
+    transform:rotate(-45deg);
+}
+.menu-list{
+    position: relative;
+    transform:rotate(45deg);
+    padding-top: 80px;
+    display: none;
+}
+.menu.open{
+    float: right;
+    width: 10px;
+    height:10px;
+    margin-top: 25px;
+    border-right:solid 1px #fff;
+    border-top:solid 1px #fff;
+    transform:rotate(-45deg);
+}
+.menu-list ul li{
+    position: relative;
+    width:100px;
+    width: 280px;
+    height: 80px;
+    border: solid 1px #6c6c6c;
+    background-color: #fff;
+    z-index: 3;
+    text-align: center;
+    list-style: none;
+    margin-left: -305px;
+
+
+}
+
+.menu-list ul li a{
+    display: block;
+    color:#6c6c6c;
+    padding: 35px;
+}
+.menu-list ul li a:hover{
+    background-color: salmon;
+    color:#fff;
+}
+.menu-one{
+    padding-right: 20px;
+}
+
+/* main content */
+#row{
+    display: flex;
+    flex-flow: row wrap;
+}
+#container{
+    flex: 0 0 75%;
+
+}
+#side-bar{
+    width: 280px;
+    flex: 0 0 18%;
+    border-left: 1px solid #6C6C6C;
+}
+
+/*サイドメニュー記述*/
+#confirm{
+    height: 250px;
+    /* width: 200px; */
+    border-bottom: 1px solid #d3d3d3;
+}
+.follow-btn{
+    font-size: 15px;
+    background-color:#3C4767;
+    border-radius: 7px;
+    margin-left: 100px;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    /* text-align: center; */
+}
+.unfollow-btn{
+    display: inline-block;
+    font-size: 15px;
+    background-color:#9e3d3f;
+    border-radius: 7px;
+    /* margin-right: 10px; */
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    /* text-align: center; */
+}
+.search-btn{
+    font-size: 15px;
+    background-color:#3C4767;
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    text-align: center;
+}
+.font-color{
+    color: #fff;
+    display: block;
+    padding-top: 12px;
+}
+
+.side-text{
+    color:#3C4767;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.count-member{
+}
+
+.member{
+    padding-left: 170px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+/* add 画面　*/
+clear{
+    color: white;
+}
+
+
+
+
+/*topのコンテナー記述*/
+.post-up{
+    width:850px;
+}
+
+.text-form{
+    height: 100px;
+    width: 850;
+    border-bottom: 5px solid #d3d3d3;
+
+}
+.enter-icon{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 10px; */
+    border-radius: 50%;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+.form-control{
+    float:left;
+    height: 80px;
+    width: 50%;
+    border:none;
+
+}
+.post-btn{
+    height: 45px;
+    width: 55px;
+    margin-top: 35px;
+    float:left;
+    border: none;
+    background: #fff;
+}
+.send-image{
+    height: 40px;
+    padding-right: 20px;
+    z-index: 3;
+}
+.edit-icon{
+    margin-top: 50px;
+    float: right;
+    border: none;
+    background: #fff;
+
+}
+
+.delete-icon{
+    margin-top: 50px;
+    float: right;
+    border: none;
+    background: #fff;
+}
+
+
+
+
+textarea{
+    resize: none;
+    outline: none;
+}
+
+.post-form{
+    height: 100px;
+    width: 830px;
+    padding: 20px 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/*topのpost内記述*/
+.post-name{
+    border: 1px solid red;
+}
+.post-post{
+   /* padding: 300px; */
+}
+.post-created{
+
+}
+/*モダール記述*/
+.login-modal-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+
+
+/*検索フォームのCSS記述*/
+.search-form{
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: gray;
+    opacity: 0.5;
+
+
+}
+.placeholder{
+    color: #dcdcdc;
+}
+.found-btn{
+    margin-top: 40px;
+    float: left;
+    background-color:#3C4767;
+    color: white;
+}
+
+
+/*プロフィール検索記載*/
+.search-list{
+    width: 1000px;
+    height: 100px;
+    color:#6c6c6c;
+    margin-top: 10px;
+
+}
+.search-box{
+
+    padding-left: 80px;
+    padding-right:200px;
+}
+.search-names{
+    float: left;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.follows-btn{
+    float: left;
+    font-size: 15px;
+    background-color:#6495ed;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 300px;
+    width: 140px;
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.follows-btn.active{
+    float: left;
+    font-size: 15px;
+    background-color:#b00;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 300px;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.unfollows-btn{
+    float: left;
+    font-size: 15px;
+    background-color:#b00;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 300px;
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    /* text-align: center; */
+    margin-top: 10px;
+}
+
+/*フォローリスト*/
+.followlist-form{
+    height: 200px;
+    border-bottom: 5px solid #d3d3d3;
+}
+.follow-word{
+    font-size: 30px;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.follows-icon{
+    float: left;
+    /* width: 40px; */
+    /* height: 40px; */
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    border-radius: 50%;
+}
+.followlist-post{
+    width: 900px;
+    background-color: red;
+}
+.follow-post-icon{
+    border-radius: 50%;
+}
